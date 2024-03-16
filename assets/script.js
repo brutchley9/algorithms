@@ -51,3 +51,9 @@ addValue.addEventListener("click", function () {
     number.value = '';
     
 });
+
+
+
+
+
+module.exports = ascendingSort;

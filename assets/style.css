@@ -2,10 +2,26 @@ html {
     background-color: blanchedalmond;
 }
 
+body {
+    display: flex;
+}
+
 main {
+    margin: 1%;
     display: grid;
     grid-template-columns: auto;
-    padding: 1%;
+    padding: 3%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+aside {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 3%;
     border: 2px;
     border-color: black;
     border-style: solid;
@@ -14,7 +30,7 @@ main {
 
 #array-input {
     margin: 1%;
-    padding: 1%;
+    padding: 2%;
     font-family: monospace;
     width: 300px;
     border: 2px;
@@ -36,7 +52,7 @@ main {
 
 #array-display {
     margin: 1%;
-    padding: 1%;
+    padding: 2%;
     font-family: monospace;
     width: 300px;
     border: 2px;

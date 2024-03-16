@@ -1,0 +1,18 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "This is my workspace for creating/editting some commonly known algoirthms for data transformation. This spplication has a front end to view this process, as well as consistent console.logs to showcase the logic behind it with JavaScript. Please take some time to view both of these demonstrations!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
